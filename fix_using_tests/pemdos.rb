@@ -11,7 +11,7 @@ def snake_it_up(string)
 
 def snake_it_up(string)
   if string[0] == "s"
-    "s" * 10 + snake_it_up[0]
+    "s" * 10 + string
   else
     puts "Nothing"
   end
