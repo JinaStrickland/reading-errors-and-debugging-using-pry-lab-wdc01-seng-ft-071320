@@ -9,12 +9,12 @@ def snake_it_up(string)
   end
 =end
 
-def snake_it_up(small, large)
-  if snake_it_up[0] == "s"
+def snake_it_up(small)
+  if small[0] == "s"
     "s" * 10 + snake_it_up[0]
   else
     puts "Nothing"
   end
 end
 
-snake_it_up(small, large)
+snake_it_up(small)
